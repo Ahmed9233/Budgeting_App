@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budgeting App</title>
+    <script src="./app.js" defer></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./Prestigio Developers.png" />
+  </head>
+
+  <body>
+    <div>
+      <h1 class="toper">WELCOME TO PRESTIGIO DEVELOPERS BUDGETING APP</h1>
+    </div>
+    <div class="firstContainer">
+      <div>
+        <label for="" id="firstText">MONTHLY BUDGET</label>
+      </div>
+      <div><input id="setBudget" type="number" /></div>
+      <div>
+        <button id="setBudgetBtn" onclick="budgetSet()">Set Budget</button>
+      </div>
+    </div>
+    <div id="secondContainer">
+      <label for="" id="secondText">SET EXPENSES</label> <br />
+      <div class="firstDiv">
+        <label for="">Expense Category</label>
+        <div class="categ">
+          <select name="" id="expCategory">
+            <option value="Loan">Loan</option>
+            <option value="Food">Food</option>
+            <option value="Grocery">Grocery</option>
+            <option value="Entertainment">Entertainment</option>
+          </select>
+        </div>
+        <label for="">Expense Date</label>
+        <div><input type="date" id="expDate" /></div>
+      </div>
+      <div class="secondDiv">
+        <div class="desc">
+          <label for="">Expense Description</label>
+          <div><input type="text" id="expDescription" /></div>
+        </div>
+        <label for="">Expense Amount</label>
+        <div><input type="number" id="expAmount" /></div>
+      </div>
+      <div>
+        <button id="setExpense" onclick="expenseSet(), cutButton() ">
+          Add Expense
+        </button>
+      </div>
+    </div>
+
+    <div id="goo"></div>
+    <table id="displayExpTable">
+      <tr>
+        <th>Expnese Category</th>
+        <th>Expnese Date</th>
+        <th>Expnese Description</th>
+        <th>Expnese Amount</th>
+      </tr>
+
+      <td id="expvalue1"></td>
+      <td id="expvalue2"></td>
+      <td id="expvalue3"></td>
+      <td id="expvalue4"></td>
+      <td>
+        <button id="cancelBtn" onclick="cancelButton()">X</button>
+      </td>
+    </table>
+    <div class="overContainer">
+      <label for="" id="thirdText">BUDGET OVERVIEW </label> <br />
+      <label for="" class="five">Total Budget</label> <br />
+      <div id="spaceOfTb"></div>
+      <br />
+      <label for="" class="four">Total Expenses</label> <br />
+      <div id="spaceOfTe"></div>
+      <br />
+      <label for="" class="three">Remaining Balance</label><br />
+      <div id="spaceOfRb"></div>
+    </div>
+  </body>
+</html>

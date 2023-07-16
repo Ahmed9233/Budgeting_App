@@ -1,0 +1,134 @@
+body {
+  height: 100vh;
+  width: 50vh;
+  background-color: darkseagreen;
+}
+.toper {
+  width: 150vh;
+  color: white;
+  text-shadow: 2px 2px black;
+  position: relative;
+  left: 350px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: xx-large;
+}
+.firstContainer {
+  position: relative;
+  left: 190px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 4px solid black;
+  height: 20vh;
+  width: 150vh;
+}
+#firstText {
+  font-size: large;
+  font-weight: bolder;
+  font-family: cursive;
+}
+#setBudget {
+  font-size: large;
+  width: 20vh;
+}
+#setBudgetBtn {
+  height: 30px;
+}
+#setBudgetBtn:hover {
+  font-weight: 500;
+  text-shadow: 1px 1px black;
+  background-color: darksalmon;
+  color: white;
+}
+#secondContainer {
+  position: relative;
+  left: 190px;
+  border-top: 3px solid black;
+  height: 35vh;
+  width: 150vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#secondText {
+  font-size: large;
+  font-weight: bolder;
+  font-family: cursive;
+}
+.categ {
+  margin-bottom: 80px;
+}
+.desc {
+  margin-bottom: 80px;
+}
+#setExpense {
+  height: 30px;
+}
+#setExpense:hover,
+#cancelBtn:hover {
+  font-weight: 500;
+  text-shadow: 1px 1px black;
+  background-color: darksalmon;
+  color: white;
+}
+#expCategory,
+#expDate,
+#expDescription,
+#expAmount {
+  font-size: large;
+  width: 20vh;
+}
+
+#goo {
+  position: relative;
+  left: 270px;
+  margin-bottom: 30px;
+  border-top: 3px solid black;
+  width: 1000px;
+}
+
+#displayExpTable {
+  position: relative;
+  left: 300px;
+  width: 900px;
+}
+th,
+tr,
+table,
+td {
+  border: 1px solid black;
+}
+.overContainer {
+  height: 143px;
+  width: 1100px;
+  margin-top: 33px;
+  border-top: 3px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  left: 241px;
+}
+#thirdText {
+  margin-top: 20px;
+  font-size: large;
+  font-weight: bolder;
+  font-family: cursive;
+}
+#spaceOfTb,
+#spaceOfTe,
+#spaceOfRb {
+  font-size: larger;
+}
+
+.five,
+.four,
+.three {
+  font-size: larger;
+}
+#button {
+  position: relative;
+  left: 1200px;
+  bottom: 25px;
+}
